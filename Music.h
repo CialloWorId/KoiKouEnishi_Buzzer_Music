@@ -37,7 +37,7 @@ unsigned int code KoiKouEnishi_Freq [24] = {
     64795,64837,64876,64913,64948,64981,65012,65042,65069,65096,65120,65144
 };
 
-unsigned char code KoiKouEnishi_Score[834] = {
+unsigned char code KoiKouEnishi_Score[837] = {
     M5,8,M6,8,H1,8,M6,4,M5,8,H1,8,H3,8,
     H5,8,H5,8,H5,8,H5,8,REST,8,H6,16,H5,16,H3,8,H1,8,
     H3,8,H2,16,H2,16,H1,8,M6,8,H2,8,H1,16,H1,16,M6,8,M5,8,SCROLL,
@@ -93,10 +93,10 @@ unsigned char code KoiKouEnishi_Score[834] = {
     H5,8,H7,16,H5,16,H4,8,H6,16,H4,16,H3,8,H5,16,H3,16,H2,8,H4,16,H2,16,
 
     H1,8,M7,8,M5,8,M5,4,H1,4,M7,8,
-    LINK,8,H1,8,H2,8,H5,4,H5,8,H5,8,H5,8,
+    LINK,8,H1,8,H2,8,H5,4,H5,8,H5,8,H5,8,SCROLL,
     H5,8,H4,8,H3,8,H5,4,H1,8,H1,8,H3,8,
-    LINK,8,H2,8,H1,8,H2,4,H2,8,H2,8,H2,8,
-    H1,8,M7,8,M5,8,M5,4,H1,4,M7,8,
+    LINK,8,H2,8,H1,8,H2,4,H2,8,H2,8,H2,8,SCROLL,
+    H1,8,M7,8,M5,8,M5,4,H1,4,SCROLL,M7,8,
     LINK,8,H1,8,H2,8,H5,4,H5,8,H5,8,H5,8,
     H5,8,H4,8,H3,8,H5,4,H1,8,H1,8,M3,8,
     LINK,8,M4,8,M6,8,H1,8,H3,8,H4,8,H7,8,

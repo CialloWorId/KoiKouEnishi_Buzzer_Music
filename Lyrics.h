@@ -60,7 +60,7 @@
 #define SONANT 0XDE
 #define H_SONANT 0XDF
 
-unsigned char code KoiKouEnishi_Lyrics[24][16] =
+unsigned char code KoiKouEnishi_Lyrics[27][16] =
     {
         {0xA2, KO, HI, KO, FU, E, NI, SHI, 0xA3, ' ', ' ', ' ', ' ', ' ', ' ', '\0'},
         {1, 2, 3, 4, ':', 'K', 'O', 'T', 'O', 'K', 'O', ' ', ' ', ' ', ' ', '\0'},
@@ -85,7 +85,10 @@ unsigned char code KoiKouEnishi_Lyrics[24][16] =
         {TO, SUSTAIN, TO, NA, RI, TA, TE, TO, NA, RI, TE, ' ', ' ', ' ', ' ', '\0'},
         {KO, NO, O, MO, I, MA, MO, RI, TA, MA, E, ' ', ' ', ' ', ' ', '\0'},
         {KI, MI, KA, SONANT, KO, I, NO, MO, N, WO, A, YA, ME, TA, ' ', '\0'},
-        { ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', '\0'}
+        { ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', '\0'},
+        { ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', '\0'},
+        { ' ', 1, 2, 3, 4, ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', '\0'},
+        { ' ', ' ', 5, 6, 7, 'Y', 'u', 'z', 'u', 's', 'o', 'f', 't', ' ', ' ', '\0'}
     };
 
 #endif
